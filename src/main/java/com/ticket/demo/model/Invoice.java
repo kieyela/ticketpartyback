@@ -32,7 +32,6 @@ public class Invoice {
 
 	public Invoice() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Invoice(Ticket ticket, Date invoiceDate) {

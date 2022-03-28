@@ -56,32 +56,17 @@ public class Ticket {
 		return title;
 	}
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
-
 	public String getEntreprise() {
 		return entreprise;
 	}
 
-	public void setEntreprise(String entreprise) {
-		this.entreprise = entreprise;
-	}
-
+	
 	public Date getStartDate() {
 		return startDate;
 	}
 
-	public void setStartDate(Date startDate) {
-		this.startDate = startDate;
-	}
-
 	public Date getEndDate() {
 		return endDate;
-	}
-
-	public void setEndDate(Date endDate) {
-		this.endDate = endDate;
 	}
 
 	public String getPosition() {
@@ -96,17 +81,17 @@ public class Ticket {
 		return price;
 	}
 
-	public void setPrice(double price) {
-		this.price = price;
-	}
-
-	public int getQuantite() {
+		public int getQuantite() {
 		return quantite;
 	}
 
-	public void setQuantite(int quantite) {
-		this.quantite = quantite;
-	}
+		@Override
+		public String toString() {
+			return "Ticket [title=" + title + ", entreprise=" + entreprise + ", startDate=" + startDate + ", endDate="
+					+ endDate + ", position=" + position + ", price=" + price + ", quantite=" + quantite + "]";
+		}
+
+	
 
 		
 	
